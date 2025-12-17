@@ -47,7 +47,13 @@ Some important phases in the default lifecycle include:
 * package: Bundles the compiled code into a distributable format like a JAR or WAR.
 * verify: Runs checks on integration test results to meet quality standards.
 * install: Places the project's package in the local Maven repository for use by other local projects.
-* deploy: Copies the final package to a remote repository for wider sharing. 
+* deploy: Copies the final package to a remote repository for wider sharing.
+
+Repositories in Maven:
+
+* Local - /home/USER/.m2/repository
+* Remote/Private - Nexus/Jfrog
+* Central/Public - Public from Maven website
 
 -- Commands:
 * mvn install <packagename>
